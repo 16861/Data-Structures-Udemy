@@ -23,9 +23,9 @@ jobs:
 
     - name: Build
       run: |
-      pwd
-      ls -la
-      go build -v ../../
+        pwd
+        ls -la
+        go build -v ../../
 
     - name: Test
       run: go test -v ../../
