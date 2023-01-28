@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	stack_array "./StackArray"
+	stack_array "github.com/16861/Data-Structures-Udemy/StackArray"
 )
 
 func main() {
