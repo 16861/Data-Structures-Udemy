@@ -24,6 +24,7 @@ jobs:
     - name: Build
       run: |
         pwd
+        go env -w GO111MODULE=off
         ls -la
         go build -v main.go
 
