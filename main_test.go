@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	stack_array "github.com/16861/Data-Structures-Udemy/StackArray"
+	stack_array "./StackArray"
 )
 
 func TestPopPush(t *testing.T) {
